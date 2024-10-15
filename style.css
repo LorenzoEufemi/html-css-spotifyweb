@@ -20,22 +20,36 @@
     height: calc(100% - 100px);
     display: flex;
 }
-/* nav-list */
+/* "nav-list" */
 .nav-list {
     width: 200px;
     background-color: #000000;
     height: 100%;
 }
-/* home-section */
+/* "home-section" */
 
 .home-section {
     width: calc(100% - 200px);
     background-color: #141922;
+    overflow: auto;
     
+}
+/* top-home */
+.top-home {
+    height: 100px;
+    background-color: #080B12;
 }
 
 
-/* section-interattiva */
+
+/* home-center */
+.home-center {
+    height: calc(100% - 100px);
+}
+
+
+
+/* SECTION-INTERATTIVA */
 
 .section-interattiva {
     height: 100px;
