@@ -50,6 +50,13 @@ ul {
     height: calc(100% - 100px);
 }
 
+.nav-center {
+    display: flex;
+}
+.music-list {
+    display: flex;
+}
+
 
 
 /* SECTION-INTERATTIVA */
