@@ -1,0 +1,43 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+}
+/* BODY */
+
+/* BIG-SECTION */
+
+.big-section {
+    height: calc(100% - 100px);
+    display: flex;
+}
+/* nav-list */
+.nav-list {
+    width: 200px;
+    background-color: #000000;
+    height: 100%;
+}
+/* home-section */
+
+.home-section {
+    width: calc(100% - 200px);
+    background-color: #141922;
+    
+}
+
+
+/* section-interattiva */
+
+.section-interattiva {
+    height: 100px;
+    background-color: #282828;
+}
