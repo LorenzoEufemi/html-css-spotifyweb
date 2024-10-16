@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="./style.css">
 
     <link rel="stylesheet" href="./responsive.css">
@@ -23,34 +27,55 @@
 
             <div class="nav-list">
                 <!-- spotify-icon -->
-                <div class="spotify-icon">
-                    
+                <div class="nav-list-top">
+                    <div class="spotify-icon">
+                        <img class="logo-s" src="./img/logo-small.svg" alt="">
+                        <img class="logo" src="./img/logo.svg" alt="">
+                    </div>
+                    <!-- icon-list -->
+                    <ul class="icon-list">
+                        <li class="home">
+                            <img src="./img/home.svg" alt="">
+                            <div class="text-center hover">Home</div>
+                        </li>
+                        <li class="cerca">
+                            <img src="./img/search.svg" alt="">
+                            <div class="text-center hover">Cerca</div>
+                        </li>
+                        <li class="libreria">
+                            <img src="./img/libreria.svg" alt="">
+                           <div class="text-center hover"> La tua libreria</div>
+                        </li>
+                    </ul>
+                    <!-- playlist -->
+                    <ul class="playlist">
+                        <li class="title-playlist white pb">PLAYLIST</li>
+                        <li class="crea-playlist grey flex pb hover">
+                            <i class="fa-solid fa-square-plus"></i> <p>Crea Playlist</p>
+                        </li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                        <li class="nome-playlist grey pb hover">Nome Playlist</li>
+                    </ul>
                 </div>
-                <!-- icon-list -->
-                <ul class="icon-list">
-                    <li class="home"></li>
-                    <li class="cerca"></li>
-                    <li class="libreria"></li>
-                </ul>
-                <!-- playlist -->
-                <ul class="playlist">
-                    <li class="title-playlist"></li>
-                    <li class="crea-playlist"></li>
-                    <li class="nome-playlist"></li>
-                    <li class="nome-playlist"></li>
-                    <li class="nome-playlist"></li>
-                    <li class="nome-playlist"></li>
-                    <li class="nome-playlist"></li>
-                    <li class="nome-playlist"></li>
-                </ul>
-                <!-- installa -->
-                <div class="installa"></div>
+                <div class="nav-list-bottom">
+                    <!-- installa -->
+                    <div class="installa flex pb10">
+                        <img src="./img/download.svg" alt="">
+                        <div class="grey hover">Installa app</div>
+                    </div>
 
-                <!-- hr aggiungere -->
+                    <hr class="">
 
-                <!-- profilo -->
-                <div class="profilo"></div>
-
+                    <!-- profilo -->
+                    <div class="profilo flex pb10 pt">
+                        <img class="grey " src="./img/profile.svg" alt="">
+                        <div class="white ">John Doe</div>
+                    </div>
+                </div>
             </div>
             <!-- "home-section" -->
 
@@ -61,51 +86,53 @@
                 <div class="top-home">
 
                     <!-- upgrade-top -->
-                    <div class="upgrade-top"></div>
+                    <div class="upgrade-top">
+                        <a href="">EFFETUA L'UPGRADE</a>
+                    </div>
                 </div>
 
                 <!-- home-center -->
 
                 <div class="home-center">
                     <!-- nav-center -->
-                    <ul class="nav-center">
-                        <li class="item-center"></li>
-                        <li class="item-center"></li>
-                        <li class="item-center"></li>
-                        <li class="item-center"></li>
-                        <li class="item-center"></li>
-                        <li class="item-center"></li>
+                    <ul class="nav-center grey">
+                        <li class="item-center">IN EVIDENZA</li>
+                        <li class="item-center">PODCAST</li>
+                        <li class="item-center">CLASSIFICHE </li>
+                        <li class="item-center">GENERI E MOOD</li>
+                        <li class="item-center">NUOVE USITE</li>
+                        <li class="item-center">SCOPRI</li>
                     </ul>
                     <!-- recently-center -->
                     <h2 class="recently-center titolo"></h2>
                     <!-- music-list -->
-                    <ul class="music-list">
-                        <li class="music-card">
+                    <div class="music-list">
+                        <div class="music-card">
                             <img src="" alt="">
                             <h4 class="title-music titolo"></h4>
                             <p class="subtitle music"></p>
-                        </li>
-                        <li class="music-card"></li>
-                        <li class="music-card"></li>
-                        <li class="music-card"></li>
-                        <li class="music-card"></li>
-                        <li class="music-card"></li>
-                    </ul>
+                        </div>
+                        <div class="music-card"></div>
+                        <div class="music-card"></div>
+                        <div class="music-card"></div>
+                        <div class="music-card"></div>
+                        <div class="music-card"></div>
+                    </div>
                     <!-- creato per john doe -->
                     <h2 class="creato-center titolo"></h2>
                     <p class="subtitle creato"></p>
-                    <ul class="music-list">
-                        <li class="music-card"></li>
-                        <li class="music-card"></li>
+                    <div class="music-list">
+                        <div class="music-card"></div>
+                        <div class="music-card"></div>
 
-                    </ul>
+                    </div>
                     <!-- artisti più popolari -->
                     <h2 class="artisti-center titolo"></h2>
                     <p class="subtitle artisti"></p>
-                    <ul class="music-list">
-                        <li class="music-card artisti-card"></li>
-                        <li class="music-card artisti-card"></li>
-                    </ul>
+                    <div class="music-list">
+                        <div class="music-card artisti-card"></div>
+                        <div class="music-card artisti-card"></div>
+                    </div>
 
                 </div>
 

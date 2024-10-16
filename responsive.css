@@ -1,12 +1,40 @@
 /* tablet */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 
 }
 /* mobile l */
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
 
 } 
-/* mobil m */
-@media screen and (max-width: 375px){
+/* mobile m */
+@media screen and (max-width: 425px){
+.nav-list {
+    width: 80px;
 
+}
+.home-section {
+    width: calc(100% - 80px);
+}
+
+.top-home {
+    width: calc(100% - 80px);
+}
+.logo {
+    display: none;
+}
+.logo-s {
+    display: flex;
+}
+.text-center {
+    display: none;
+}
+.icon-list li img {
+    width: 100%;
+}  
+.playlist {
+    display: none;
+}
+.nav-list-bottom {
+    display: none;
+}
 } 
