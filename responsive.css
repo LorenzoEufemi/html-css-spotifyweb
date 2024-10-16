@@ -1,10 +1,14 @@
 /* tablet */
 @media screen and (max-width: 1024px){
-
+.music-card {
+    width: calc(90% / 4);
+}
 }
 /* mobile l */
 @media screen and (max-width: 768px){
-
+    .music-card {
+        width: calc(90% / 2);
+    }
 } 
 /* mobile m */
 @media screen and (max-width: 425px){
@@ -36,5 +40,8 @@
 }
 .nav-list-bottom {
     display: none;
+}
+.music-card {
+    width: calc(90%/ 2);
 }
 } 
