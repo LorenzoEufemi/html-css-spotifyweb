@@ -54,9 +54,11 @@ img {
 .pt {
     padding-top: 20px;
 }
+
 .pt10 {
     padding-top: 10px;
 }
+
 .flex {
     display: flex;
     gap: 10px;
@@ -89,8 +91,8 @@ img {
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    
-    
+
+
 }
 
 .logo {
@@ -162,15 +164,16 @@ img {
 .top-home a {
     text-decoration: none;
     color: white;
-
+    font-size: small;
     border: 1px solid white;
     padding: 10px 40px;
     border-radius: 20px;
 
 
 }
+
 .upgrade-top:hover {
-    transform: scale( 1.02 );
+    transform: scale(1.02);
 }
 
 
@@ -191,15 +194,18 @@ img {
     flex-wrap: wrap;
 
 }
+
 .green {
     border: 1px solid #ADFF2F;
     width: 30px;
     text-align: center;
     margin-left: 280px;
 }
+
 .recently-center {
     margin-top: 20px;
 }
+
 .music-list {
     display: flex;
 
@@ -207,13 +213,14 @@ img {
     margin: 20px 0;
     text-align: center;
     gap: 20px;
-     flex-wrap: wrap; 
+    flex-wrap: wrap;
 
 }
 
 .music-card {
     width: calc(90% / 6);
 }
+
 .artisti-card img {
     border-radius: 50%;
 }
