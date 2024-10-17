@@ -284,7 +284,7 @@ img {
     width: 100%;
     margin: 20px 0;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
 
 }
@@ -310,7 +310,7 @@ img {
 }
 
 .music-card {
-    width: calc(90% / 6);
+    width: calc(100% / 6);
 }
 
 .artisti-card img {
@@ -335,7 +335,7 @@ img {
     display: flex;
     padding: 20px 10px;
     gap: 10px;
-    width: 20%;
+    width:calc(100% / 3);
 }
 
 .now-listen img {
@@ -352,15 +352,16 @@ img {
 }
 
 .action-now {
-    width: 60%;
+    width:calc(100% / 3);
 }
 
 .audio-player {
-    width: 20%;
+    width:calc(100% / 3);
     display: flex;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
     gap: 15px;
+    padding-right: 10px;
 }
 
 .action-item {

@@ -4,18 +4,7 @@
         width: calc(90% / 4);
     }
 
-    .now-listen {
-        width: 30%;
-    }
-
-    .action-now {
-        width: 30%;
-
-    }
-
-    .audio-player {
-        width: 30%;
-    }
+    
 }
 
 /* mobile l */
